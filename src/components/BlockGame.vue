@@ -26,7 +26,7 @@ export default {
   },
 
   created() {
-    this.socket = io('https://websockets-vue.herokuapp.com/')
+    this.socket = io('http://localhost:3000')
   },
 
   mounted(){
